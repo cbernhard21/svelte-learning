@@ -6,11 +6,9 @@
 <h3>Popular Movies</h3>
 
 <div class="popular-movies">
-    <div class="movie">
-        {#each popular as movie}
-            <MovieCard {movie}/>
-        {/each}
-    </div>
+    {#each popular as movie}
+        <MovieCard {movie}/>
+    {/each}
 </div>
 
 <style>
